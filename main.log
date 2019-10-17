@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.10.6)  17 OCT 2019 19:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.10.6)  17 OCT 2019 20:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1589,37 +1589,51 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <30> not available
 ]
 [6]
 Capitolo 1.
-<Pictures/chapter_head_2.pdf, id=180, 3581.38pt x 1790.69pt>
+<Pictures/chapter_head_2.pdf, id=186, 3581.38pt x 1790.69pt>
 File: Pictures/chapter_head_2.pdf Graphic file (type pdf)
 <use Pictures/chapter_head_2.pdf>
 Package pdftex.def Info: Pictures/chapter_head_2.pdf  used on input line 120.
 (pdftex.def)             Requested size: 597.50787pt x 298.75726pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 128.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 127.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 129.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--130
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 131.
+Package mdframed Info: mdframed works in twoside mode on input line 130.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 131.
+(mdframed)              on input line 130.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 131.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 130.
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <10> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 131.
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 130.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 131.
-Package mdframed Info: mdframed works in twoside mode on input line 136.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 130.
+
+Overfull \hbox (14.42921pt too wide) in paragraph at lines 138--139
+\T1/ptm/m/n/10.95 (-20) Notiamo su-bi-to che la de-fi-ni-zio-ne par-la di \T1/p
+tm/m/it/10.95 (-20) trat-ta-men-to del-le in-for-ma-zio-ni\T1/ptm/m/n/10.95 (-2
+0) , ma co-sa è un'\T1/ptm/b/n/10.95 informazione[][][]\T1/ptm/m/n/10.95 (-20) 
+?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 139.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 136.
+(mdframed)              on input line 139.
 [7
 
  <./Pictures/chapter_head_2.pdf>]
+Package mdframed Info: Not enough space on this page on input line 141.
 Package mdframed Info: mdframed works in twoside mode on input line 153.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -1632,63 +1646,82 @@ Package mdframed Info: mdframed works in twoside mode on input line 163.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 163.
+Package mdframed Info: mdframed works in twoside mode on input line 171.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 171.
+Package mdframed Info: Not enough space on this page on input line 173.
+ [8]
+Package mdframed Info: Not enough space on this page on input line 173.
+Package mdframed Info: mdframed works in twoside mode on input line 174.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 174.
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 181.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 181.
+LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <6> not available
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 187.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <6> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 187.
+
+LaTeX Warning: Citation 'book_key' on page 9 undefined on input line 210.
 
 
-LaTeX Warning: Citation 'book_key' on page 8 undefined on input line 176.
+LaTeX Warning: Citation 'article_key' on page 9 undefined on input line 210.
 
-
-LaTeX Warning: Citation 'article_key' on page 8 undefined on input line 176.
-
-[8] [9] [10
-
-]
+[9] [10]
 Capitolo 2.
 File: Pictures/chapter_head_2.pdf Graphic file (type pdf)
 <use Pictures/chapter_head_2.pdf>
-Package pdftex.def Info: Pictures/chapter_head_2.pdf  used on input line 212.
+Package pdftex.def Info: Pictures/chapter_head_2.pdf  used on input line 246.
 (pdftex.def)             Requested size: 597.50787pt x 298.75726pt.
-Package mdframed Info: mdframed works in twoside mode on input line 221.
+Package mdframed Info: mdframed works in twoside mode on input line 255.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 221.
-Package mdframed Info: mdframed works in twoside mode on input line 232.
+(mdframed)              on input line 255.
+Package mdframed Info: mdframed works in twoside mode on input line 266.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 232.
-Package mdframed Info: mdframed works in twoside mode on input line 242.
+(mdframed)              on input line 266.
+Package mdframed Info: mdframed works in twoside mode on input line 276.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 242.
-[11]
+(mdframed)              on input line 276.
+[11
+
+]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 271.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 305.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 271.
-Package mdframed Info: mdframed works in twoside mode on input line 280.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 305.
+Package mdframed Info: mdframed works in twoside mode on input line 314.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 280.
-LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <6> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 315.
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <6> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 315.
+(mdframed)              on input line 314.
  [12]
-Package mdframed Info: mdframed works in twoside mode on input line 335.
+Package mdframed Info: mdframed works in twoside mode on input line 369.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 335.
+(mdframed)              on input line 369.
  [13] [14
 
 ] (./main.ptc) [15] [16]
 Capitolo 3.
 File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
 <use Pictures/chapter_head_1.pdf>
-Package pdftex.def Info: Pictures/chapter_head_1.pdf  used on input line 369.
+Package pdftex.def Info: Pictures/chapter_head_1.pdf  used on input line 403.
 (pdftex.def)             Requested size: 597.50787pt x 298.77907pt.
-<Pictures/placeholder.jpg, id=298, 351.3125pt x 193.72375pt>
+<Pictures/placeholder.jpg, id=315, 351.3125pt x 193.72375pt>
 File: Pictures/placeholder.jpg Graphic file (type jpg)
 <use Pictures/placeholder.jpg>
-Package pdftex.def Info: Pictures/placeholder.jpg  used on input line 392.
+Package pdftex.def Info: Pictures/placeholder.jpg  used on input line 426.
 (pdftex.def)             Requested size: 175.6558pt x 96.86163pt.
 [17
 
@@ -1697,20 +1730,20 @@ Package pdftex.def Info: Pictures/placeholder.jpg  used on input line 392.
 ]
 File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
 <use Pictures/chapter_head_1.pdf>
-Package pdftex.def Info: Pictures/chapter_head_1.pdf  used on input line 400.
+Package pdftex.def Info: Pictures/chapter_head_1.pdf  used on input line 434.
 (pdftex.def)             Requested size: 597.50787pt x 298.77907pt.
 
 
-Package biblatex Warning: Type 'book' not found on input line 404.
+Package biblatex Warning: Type 'book' not found on input line 438.
 
 
-LaTeX Warning: Empty bibliography on input line 404.
+LaTeX Warning: Empty bibliography on input line 438.
 
 
-Package biblatex Warning: Type 'article' not found on input line 407.
+Package biblatex Warning: Type 'article' not found on input line 441.
 
 
-LaTeX Warning: Empty bibliography on input line 407.
+LaTeX Warning: Empty bibliography on input line 441.
 
 [19] [20
 
@@ -1719,11 +1752,11 @@ No file main.ind.
 \tf@ptc=\write7
 \openout7 = `main.ptc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 421.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 421.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 455.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 455.
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 421.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 421.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 455.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 455.
 
 
 LaTeX Warning: There were undefined references.
@@ -1738,11 +1771,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38078 strings out of 494509
- 712472 string characters out of 6175963
- 1245729 words of memory out of 5000000
- 40939 multiletter control sequences out of 15000+600000
- 667856 words of font info for 284 fonts, out of 8000000 for 9000
+ 38101 strings out of 494509
+ 712764 string characters out of 6175963
+ 1245930 words of memory out of 5000000
+ 40945 multiletter control sequences out of 15000+600000
+ 668246 words of font info for 290 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  57i,15n,63p,907b,2276s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{section*.5} has been referenced but does not exis
@@ -1764,10 +1797,10 @@ ve/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on main.pdf (20 pages, 396867 bytes).
+Output written on main.pdf (20 pages, 403190 bytes).
 PDF statistics:
- 516 PDF objects out of 1000 (max. 8388607)
- 364 compressed objects within 4 object streams
- 95 named destinations out of 1000 (max. 500000)
+ 544 PDF objects out of 1000 (max. 8388607)
+ 380 compressed objects within 4 object streams
+ 103 named destinations out of 1000 (max. 500000)
  74977 words of extra memory for PDF output out of 89155 (max. 10000000)
 

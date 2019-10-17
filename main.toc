@@ -9,19 +9,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}L'informatica oggi}{7}{section.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}L'informazione}{8}{subsection.1.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}L'informazione}{7}{subsection.1.1.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.2}Automazione}{8}{subsection.1.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Citation}{8}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.1.3}Computazione}{9}{subsection.1.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Lists}{8}{section.1.3}% 
+\contentsline {subsection}{\numberline {1.1.4}Logica}{9}{subsection.1.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Numbered List}{9}{subsection.1.3.1}% 
+\contentsline {section}{\numberline {1.2}Citation}{9}{section.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Bullet Points}{9}{subsection.1.3.2}% 
+\contentsline {section}{\numberline {1.3}Lists}{9}{section.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}Descriptions and Definitions}{9}{subsection.1.3.3}% 
+\contentsline {subsection}{\numberline {1.3.1}Numbered List}{10}{subsection.1.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.2}Bullet Points}{10}{subsection.1.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.3}Descriptions and Definitions}{10}{subsection.1.3.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}In-text Elements}{11}{chapter.2}% 
 \defcounter {refsection}{0}\relax 
