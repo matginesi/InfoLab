@@ -78,14 +78,19 @@
     ~\vfill
     \thispagestyle{empty}
     
-%    \noindent Copyright \copyright\ 2013 John Smith\\ % Copyright notice
+    \noindent Copyright \copyright\ 2019 Matteo Ginesi\\ % Copyright notice
  
- 	\noindent Scritto da Matteo Ginesi, 2019   
+ 	\noindent Scritto da: Matteo Ginesi, 2019   
+ 	
 %    \noindent \textsc{Published by Publisher}\\ % Publisher
     
     \noindent \url{https://github.com/matginesi/InfoLab}\\ % URL
     
-    \noindent Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) Unported License (the ``License''). You may not use this file/book except in compliance with the License. You may obtain a copy of the License at \url{http://creativecommons.org/licenses/by-sa/4.0}. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \textsc{``as is'' basis, without warranties or conditions of any kind}, either express or implied. See the License for the specific language governing permissions and limitations under the License.\\ % License information
+    \begin{figure}[h!]
+    	\centering\includegraphics[scale=1]{Pictures/by-sa.png}
+    \end{figure}
+    
+    \noindent This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.\\
     
     \noindent \textit{Prima edizione, speriamo presto} % Printing/edition date
     
@@ -123,11 +128,10 @@
         
         \section{L'informatica}\index{L'informatica}
         \label{sec: L'informatica oggi}
-    		Ognuno di noi ha avuto a che fare con l'informatica nella vita di tutti i giorni. Un esempio? Vi è mai squillato il telefono? Avete mai acceso una consolle per giocare?\\ Se avete risposto si anche ad una sola delle domande, avete certamente avuto a che fare con l'informatica.
+    		Ognuno di noi ha avuto a che fare con l'informatica nella vita di tutti i giorni. Un esempio? Vi è mai squillato il telefono? Avete mai acceso una consolle per giocare? Avete mai utilizzato un computer? Avete mai visto un video su internet? Avete mai avuto in mano un tablet?\\ Se avete risposto "si" anche ad una sola delle domande, avete certamente avuto a che fare con l'informatica.
     		
     		Troppo spesso si associa la parola \textbf{informatica} alla parola \textbf{computer}: questo in parte è giusto, ma non del tutto: il computer è solo uno dei tanti sistemi informatici esistenti. L'informatica è una \textbf{scienza} e come tale si occupa di molte cose.
-    		A proposito di computer, questa è la definizione presa dall'enciclopedia (che termine antico!) \textit{online} per eccellenza, ovvero \textit{Wikipedia}\footnote{Sito web: \url{https://www.wikipedia.org}}, della parola \textbf{informatica}\footnote{Sito web: \url{https://it.wikipedia.org/wiki/Informatica}}:\\
-    		
+    		A proposito di computer, questa è la definizione presa dall'enciclopedia (che termine antico!) \textit{online} per eccellenza, ovvero \textit{Wikipedia}\footnote{Sito web: \url{https://www.wikipedia.org}}, della parola \textbf{informatica}\footnote{Sito web: \url{https://it.wikipedia.org/wiki/Informatica}}:    		
     		\begin{definition}[Informatica]\label{def: Informatica}
     			\textit{L'informatica è la scienza che si occupa del trattamento dell'informazione mediante procedure automatizzate. In particolare ha per oggetto lo studio dei fondamenti teorici dell'informazione, della sua computazione a livello logico e delle tecniche pratiche per la sua implementazione e applicazione in sistemi elettronici automatizzati detti quindi sistemi informatici. Come tale è una disciplina fortemente connessa con l'automatica, l'elettronica e anche l'elettromeccanica.}
     		\end{definition}
@@ -212,10 +216,47 @@
     			Tutto quello che penserete di fare verrà tradotto dal vostro cervello in semplici gesti (toccare i tasti giusti, al momento giusto). Questa informazione "complessa" arriverà alla consolle e sarà computata in una serie di comandi più semplici e sintetici, i quali verranno di nuovo analizzati ed elaborati in modo che il vostro personaggio nel videogioco esegua l'azione che voi avete pensato. Che giro immenso!
     			
     			All'interno della consolle (che possiamo vedere come un computer specifico per i videogiochi) non esiste un "traduttore" \textit{pensiero-comando-esecuzione} capace di capire le nostre intenzioni. Ecco che l'informazione (il dato) da noi pensato, viene trasformato (e computato) tramite un linguaggio più semplice per la macchina, in modo da rendere tutto il processo completamente \textbf{automatizzato}. Un processo automatizzato ha bisogno di comandi ben specifici e definiti, i quali rispondono ai concetti principali della logica, con semplici \texttt{SI} e \texttt{NO}:
-    			\begin{figure}[h]
+    			\begin{figure}[h!]
     				\centering\includegraphics[scale=0.7]{Diagrams/diag1}
-    				\caption{Diagramma di flusso: esempio robot - \textit{Come evitare gli ostacoli}.}
+    				\caption{Esempio di logica di un videogioco - \textit{Come evitare gli ostacoli}.}
     			\end{figure}
+    		
+    			La logica serve anche a gestire situazioni diverse dal semplice \texttt{SI} e \texttt{NO}; famoso è il \textit{sillogismo}\footnote{Termine filosofico con cui Aristotele designò la forma fondamentale di argomentazione logica, costituita da tre proposizioni dichiarative connesse in modo tale che dalle prime due, assunte come premesse, si possa dedurre una conclusione. - Treccani} di Aristotele:
+    			\begin{example}[Sillogismo]
+    				Sillogismo di Aristotele:
+    				\begin{enumerate}
+    					\item Tutti gli \textbf{uomini} sono \textbf{mortali};
+    					\item Socrate è \textbf{uomo};
+    					\item Dunque Socrate è \textbf{mortale}.
+    				\end{enumerate}
+    			\end{example}
+    		
+				Un esempio diverso di logica è quella che può mostrare il contenuto multimediale (un video) 
+				attraverso il monitor del vostro computer o la televisione a cui avete collegato la vostra consolle preferita:
+    			\begin{example}[Logica: Riproduzione video]~
+					\begin{itemize}
+						\item L'utente ha scelto il \textsc{video}?
+							\subitem \texttt{SI}
+						\item Il video è pronto per essere riprodotto?
+							\subitem \texttt{SI}
+						\item L'utente ha premuto il tasto \textsc{play}?
+							\subitem \texttt{SI}
+						\item Riproduci \textsc{video} attraverso \textsc{monitor}.
+					\end{itemize}
+    			\end{example}
+    			\begin{exercise}
+    				Prova ad inventare un sillogismo.
+    			\end{exercise}
+    			\begin{exercise}
+    				Prova a disegnare uno schema logico del sillogismo di Aristotele.
+    			\end{exercise}
+    		
+    		\section{I sistemi informatici}\index{I sistemi informatici}
+    		\label{sec: I sistemi informatici}
+    		
+    	\chapter{Il computer}\index{Il computer}
+    	\label{cap: Il computer}
+    		
     			
             %\lipsum[1-7] % Dummy text
         
