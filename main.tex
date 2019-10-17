@@ -78,15 +78,16 @@
     ~\vfill
     \thispagestyle{empty}
     
-    \noindent Copyright \copyright\ 2013 John Smith\\ % Copyright notice
+%    \noindent Copyright \copyright\ 2013 John Smith\\ % Copyright notice
+ 
+ 	\noindent Scritto da Matteo Ginesi, 2019   
+%    \noindent \textsc{Published by Publisher}\\ % Publisher
     
-    \noindent \textsc{Published by Publisher}\\ % Publisher
+    \noindent \url{https://github.com/matginesi/InfoLab}\\ % URL
     
-    \noindent \textsc{book-website.com}\\ % URL
+    \noindent Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) Unported License (the ``License''). You may not use this file/book except in compliance with the License. You may obtain a copy of the License at \url{http://creativecommons.org/licenses/by-sa/4.0}. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \textsc{``as is'' basis, without warranties or conditions of any kind}, either express or implied. See the License for the specific language governing permissions and limitations under the License.\\ % License information
     
-    \noindent Licensed under the Creative Commons Attribution-NonCommercial 3.0 Unported License (the ``License''). You may not use this file except in compliance with the License. You may obtain a copy of the License at \url{http://creativecommons.org/licenses/by-nc/3.0}. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \textsc{``as is'' basis, without warranties or conditions of any kind}, either express or implied. See the License for the specific language governing permissions and limitations under the License.\\ % License information
-    
-    \noindent \textit{First printing, March 2013} % Printing/edition date
+    \noindent \textit{Prima edizione, speriamo presto} % Printing/edition date
     
     %----------------------------------------------------------------------------------------
     %	TABLE OF CONTENTS
@@ -120,7 +121,7 @@
     \chapter{Introduzione}
     \label{cap: Introduzione}
         
-        \section{L'informatica oggi}\index{L'informatica oggi}
+        \section{L'informatica}\index{L'informatica}
         \label{sec: L'informatica oggi}
     		Ognuno di noi ha avuto a che fare con l'informatica nella vita di tutti i giorni. Un esempio? Vi è mai squillato il telefono? Avete mai acceso una consolle per giocare?\\ Se avete risposto si anche ad una sola delle domande, avete certamente avuto a che fare con l'informatica.
     		
@@ -201,6 +202,21 @@
     		
     			"Eh? Cosa? In che senso? Bah" - Credo rappresenti tutto ciò che avete in mente in questo momento. Giusto: non siamo qui a parlare di cose strane, ne di filosofia ne di massimi sistemi della vita. Parliamo e vogliamo parlare di informatica.    			
     			Abbiamo capito che l'informatica utilizza come strumento di automazione per la computazione delle informazioni il computer e tutti gli altri sistemi informatici. Ma quale è la lingua con cui "parlano"? Bene, la risposta è semplice, la lingua della \textbf{logica}\footnote{Nei capitoli successivi parlerò di \textit{logica binaria}, \textit{logica del primo ordine} e di tante altre cose che per ora sembrano assurde. Ma non lo sono.}.
+    			
+    			\begin{quote}
+    				\textit{"C'è qualcosa di più importante della logica: è l'immaginazione."}\\
+    				Alfred Hitchcock - Regista.
+    			\end{quote}
+    		
+    			Provate ad immaginarvi seduti sul divano, con il joypad in mano, gli occhi puntati verso il televisore, la vostra consolle preferita in funzione, il vostro gioco pronto per iniziare.
+    			Tutto quello che penserete di fare verrà tradotto dal vostro cervello in semplici gesti (toccare i tasti giusti, al momento giusto). Questa informazione "complessa" arriverà alla consolle e sarà computata in una serie di comandi più semplici e sintetici, i quali verranno di nuovo analizzati ed elaborati in modo che il vostro personaggio nel videogioco esegua l'azione che voi avete pensato. Che giro immenso!
+    			
+    			All'interno della consolle (che possiamo vedere come un computer specifico per i videogiochi) non esiste un "traduttore" \textit{pensiero-comando-esecuzione} capace di capire le nostre intenzioni. Ecco che l'informazione (il dato) da noi pensato, viene trasformato (e computato) tramite un linguaggio più semplice per la macchina, in modo da rendere tutto il processo completamente \textbf{automatizzato}. Un processo automatizzato ha bisogno di comandi ben specifici e definiti, i quali rispondono ai concetti principali della logica, con semplici \texttt{SI} e \texttt{NO}:
+    			\begin{figure}[h]
+    				\centering\includegraphics[scale=0.7]{Diagrams/diag1}
+    				\caption{Diagramma di flusso: esempio robot - \textit{Come evitare gli ostacoli}.}
+    			\end{figure}
+    			
             %\lipsum[1-7] % Dummy text
         
             %------------------------------------------------
