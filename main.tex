@@ -42,12 +42,14 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt,fleqn,a5paper]{book} % Default font size and left-justified equations
+\documentclass[12pt,fleqn,a4paper]{book} % Default font size and left-justified equations
 
 
 %----------------------------------------------------------------------------------------
 
 \input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
+
+\usepackage{array}
 
     \begin{document}
     
@@ -63,7 +65,7 @@
     {\begin{tikzpicture}[remember picture,overlay]
     \node[anchor=north west,inner sep=0pt] at (0,0) {\includegraphics[width=\paperwidth]{background}}; % Background image
     \draw[anchor=north] (midpoint) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering Laboratorio di informatica\\[15pt] % Book title
-    {\Large Guida}\\[20pt] % Subtitle
+    {\Large ~}\\[20pt] % Subtitle
     {\huge Dot. Ing. Matteo Ginesi}}}; % Author name
     \end{tikzpicture}};
     \end{tikzpicture}
@@ -75,6 +77,22 @@
     %----------------------------------------------------------------------------------------
     
     \newpage
+    \begin{quote}
+    	\begin{flushright}
+    		\footnotesize
+    		\textit{
+			Did you hear baby\\
+			Come back and tell you the things he's seen.\\
+			Did it surprise you\\
+			To be picked up at eight in a limousine?\\
+			Doing the things he's accustomed to do.\\
+			Which at one time it seemed like a dream\\
+			Now it's true.\\
+			And unknowing\\
+			You made it all happen this way.\\ ~ \\} 
+			Jethro Tull - For a Thousand Mothers
+    	\end{flushright}
+    \end{quote}
     ~\vfill
     \thispagestyle{empty}
     
@@ -255,8 +273,8 @@
     			\begin{example}[Previsione]Se piove o fa freddo, non esco a giocare.
     				\\Dati:\\
     				\\Fuori piove.\\Fuori fa freddo.\\
-    				\\\textbf{In questo caso cosa faccio?}
-    				\\\textbf{Non esco.}
+    				\\\textbf{Esco?}
+    				\\\textbf{No.}
     			\end{example}
     			\begin{example}[Previsione] Se ho fame oppure è l'ora di pranzo, allora mangio.\\
     				Dati:\\
@@ -266,25 +284,93 @@
     				\\\textbf{Si.}
     			\end{example}
     		
-    			Abbiamo appena visto due esempi di \textit{previsione} conoscendo le \textbf{informazioni} (negli esempi le abbiamo chiamate \textbf{dati}); la differenza sostanziale è molto fine, ma decisiva: la condizione iniziale è \textbf{vera} se il dato $1$ \textbf{E} il dato $2$ sono \textbf{VERI}.\\
-    			Nel secondo caso invece, la condizione iniziale è \textbf{VERA} se il dato $1$ \textbf{OPPURE} il dato $2$ sono \textbf{VERI}.
+    			Abbiamo appena visto due esempi di \textit{previsione} conoscendo le \textit{informazioni} (negli esempi le abbiamo chiamate \textit{dati}); la differenza sostanziale con i sillogismi è molto fine ma decisiva: la condizione iniziale è \textsc{Vera} se il dato $1$ \textbf{E} il dato $2$ sono \textsc{Veri}. Nel secondo caso invece, la condizione iniziale è \textsc{Vera} se il dato $1$ \textbf{OPPURE} il dato $2$ è \textsc{Vero}.
     			
-    			\subsection{La congiunzione "e"}\index{La congiunzione "e"}
-    			\label{sub: La congiunzione "e"}
-    			
-    				
-    			\subsection{La congiunzione "o"}\index{La congiunzione "o"}
-    			\label{sub: La congiunzione "o"}
-    				
-    			\subsection{La negazione}\index{La negazione}
-				\label{sub: La negazione"}    			
-					
+    			La logica è formata da \textbf{proposizioni} e \textbf{connettivi}, nel corso dei capitoli avremo la possibilità di dargli una definizione operativa, più intuitiva e divertente. Per ora basta sapere che c'è (ed è importante).
     		
-    		\section{I sistemi informatici}\index{I sistemi informatici}
-    		\label{sec: I sistemi informatici}
+    		\section{Gli strumenti informatici}\index{Gli strumenti informatici}
+    		\label{sec: Gli strumenti informatici}
+    			Cominciamo a mettere le mani in pasta!
+    			In un laboratorio di informatica, oltre che leggere e studiare, si utilizza un computer. Ovviamente il computer è solo il più importante degli strumenti informatici che abbiamo al giorno d'oggi; il più importante da saper utilizzare, sul quale capire le basi dell'informatica e dell'utilizzo di questa strana tecnologia.
+    			
+    			Altri strumenti sono tutti quegli oggetti che possiamo utilizzare o meno nella vita di tutti i giorni, connessi la mondo dell'informatica, quali:
+    			\begin{itemize}
+    				\item Lo smartphone
+    				\item Lo smartwatch
+    				\item Il tablet
+    				\item La consolle di gioco
+    			\end{itemize}
+    		
+    			Cosa hanno in comune con il computer? Beh, proviamo a ragionare insieme: tutti hanno un'\textit{interfaccia} con voi (l'\textit{utente}), tutti ricevono dei \textit{comandi} più o meno complessi con voi, tutti \textit{computano} informazioni e ne restituiscono altre in modo diverso. Allora la domanda sorge spontanea: che differenza c'è con il classico computer?
+    			
+				La risposta breve e più facile è: "nulla!"
+				La risposta più giusta, completa e lunga è: "sono sistemi di computazione che elaborano informazioni restituendone di altre, anche in modo diverso, e la differenza gli uni dagli altri è caratterizzata da alcune capacità presenti ed il modo più o meno efficiente di gestire alcune informazioni".\\
+				
+				Sento già le voci di tutti voi urlare: "Eh? Cosa? Che?"\\
+				
+				Tranquilli, quella di prima è solo la versione lunga della storia; in breve possiamo dire che tutti quei strumenti informatici non sono altro che computer \textbf{ottimizzati} per un determinato scopo. Secondo voi è comodo portarsi in giro la consolle di gioco oppure il computer per telefonare ad un vostro amico? È comodo portarsi in giro il tablet oppure la consolle di gioco per guardare l'orario? È comodo leggere un libro tramite la consolle?\\
+				
+				Eppure, tutti gli strumenti sopra elencati possono fare le stesse cose! È tutta questione di comodità.
+				
+				\begin{exercise}[Comodità degli strumenti informatici] Indicare quale strumento è più comodo per lo scopo:\\
+					\begin{tabular}{|>{\raggedright\arraybackslash}p{5cm}|p{8cm}|}
+						\hline 
+						\rule[-1ex]{0pt}{5ex} Ascoltare una canzone &  \\ 
+						\hline 
+						\rule[-1ex]{0pt}{5ex} Videogiochi &  \\ 
+						\hline 
+						\rule[-1ex]{0pt}{5ex} Leggere un libro &  \\ 
+						\hline 
+						\rule[-1ex]{0pt}{5ex} Chiamare un amico &  \\ 
+						\hline 
+						\rule[-1ex]{0pt}{5ex} Leggere un messaggio &  \\ 
+						\hline 
+						\rule[-1ex]{0pt}{5ex} Guardare l'orario &  \\ 
+						\hline 
+						\rule[-1ex]{0pt}{5ex} Leggere un'email &  \\ 
+						\hline 
+						\rule[-1ex]{0pt}{5ex} Guardare un'immagine &  \\ 
+						\hline 
+					\end{tabular} 	
+				\end{exercise}
+    			
+    			Tralasciando per ora gli altri sistemi informatici, andiamo ad analizzare lo strumento principale del laboratorio informatico: il \textbf{computer}. Ma cosa è un computer? A cosa serve? Come possiamo divertirci, studiare, lavorare con un computer?
+    			Scopriamolo insieme!
+    			\begin{quote}
+    				\textit{"Parte della disumanità del computer sta nel fatto che, una volta programmato e messo in funzione, si comporta in maniera perfettamente onesta."}\\
+    				Isaac Asimov - Chimico, scrittore.
+    			\end{quote}
     		
     	\chapter{Il computer}\index{Il computer}
     	\label{cap: Il computer}
+    		Cominciamo dando una bella definizione formale\footnote{Paul E. Ceruzzi - Storia dell'informatica. Dai primi computer digitali all'era di Internet}:
+    		\begin{quote}
+				\textit{Elaboratore o calcolatore, macchina automatizzata programmabile in grado di eseguire sia complessi calcoli matematici (calcolatore) sia altri tipi di elaborazioni dati (elaboratore).}
+    		\end{quote}
+    	
+    		
+    		
+    		\section{Da cosa è formato?}\index{Da cosa è formato?}
+    		\label{sec: Da cosa è formato?}
+    		
+    		\section{Le periferiche}\index{Le periferiche}
+    		\label{sec: Le periferiche}
+    		
+    		\section{Il laptop}\index{Il laptop}
+    		\label{sec: Il laptop}
+    		
+    	\chapter{Input ed output}\index{Input ed output}
+    	\label{cap: Input ed output}
+    		
+    		\subsection{Periferiche di input}\index{Periferiche di input}
+    		\label{sub: Periferiche di input}
+    		
+    		\subsection{Periferiche di output}\index{Periferiche di output}
+    		\label{sub: Periferiche di output}
+    		
+    	\chapter{Usiamo il computer!}\index{Usiamo il computer!}
+    	\label{cap: Usiamo il computer!}
+    	%\chapter{Logica}
     		
     			
             %\lipsum[1-7] % Dummy text
